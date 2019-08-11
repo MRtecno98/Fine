@@ -10,19 +10,18 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>fine-bootstrap</artifactId>
+    <artifactId>fine-commons</artifactId>
 
-    <name>Fine Bootstrap</name>
+    <name>Fine Commons</name>
 
     <dependencies>
         <dependency>
-            <groupId>com.destroystokyo.paper</groupId>
-            <artifactId>paper-api</artifactId>
+            <groupId>ch.jalu</groupId>
+            <artifactId>injector</artifactId>
         </dependency>
         <dependency>
-            <groupId>it.mcdev.fine</groupId>
-            <artifactId>fine-commons</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>com.destroystokyo.paper</groupId>
+            <artifactId>paper-api</artifactId>
         </dependency>
     </dependencies>
 
