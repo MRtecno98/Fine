@@ -7,32 +7,32 @@ import java.util.Collection;
 
 public abstract class Module {
 
-	private boolean enabled;
+    private boolean enabled;
 
-	public String getName() {
-		return getClass().getSimpleName();
-	}
+    public String getName() {
+        return getClass().getSimpleName();
+    }
 
-	public boolean isEnabled() {
-		return enabled;
-	}
+    public boolean isEnabled() {
+        return enabled;
+    }
 
-	public void enable() {
-		onEnable();
-		enabled = true;
-	}
+    public void enable() {
+        onEnable();
+        enabled = true;
+    }
 
-	public void disable() {
-		onDisable();
-		enabled = false;
-	}
+    public void disable() {
+        onDisable();
+        enabled = false;
+    }
 
-	protected abstract void onEnable();
+    protected abstract void onEnable();
 
-	protected abstract void onDisable();
+    protected abstract void onDisable();
 
-	protected Collection<Class<? extends BaseCommand>> getModuleCommandClasses() {
-		Reflections commandsReflection = new Reflections(getClass().getPackage().getName() + ".commands");
-		return commandsReflection.getSubTypesOf(BaseCommand.class);
-	}
+    protected Collection<Class<? extends BaseCommand>> getModuleCommandClasses() {
+        Reflections commandsReflection = new Reflections(getClass().getPackage().getName() + ".commands");
+        return commandsReflection.getSubTypesOf(BaseCommand.class);
+    }
 }
