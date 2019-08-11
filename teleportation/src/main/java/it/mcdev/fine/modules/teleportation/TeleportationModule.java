@@ -1,4 +1,4 @@
-package it.mcdev.fine.modules.teleportation.commands;
+package it.mcdev.fine.modules.teleportation;
 
 import ch.jalu.injector.factory.Factory;
 import co.aikar.commands.BaseCommand;
