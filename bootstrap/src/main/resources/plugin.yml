@@ -1,0 +1,8 @@
+name: '${project.suiteName}'
+version: '${project.version}'
+description: '${project.description}'
+main: 'it.mcdev.fine.bootstrap.Fine'
+api-version: '1.13'
+load: 'STARTUP'
+author: 'MCDevITA'
+website: '${project.url}'
