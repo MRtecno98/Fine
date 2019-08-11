@@ -10,26 +10,19 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>fine-commons</artifactId>
+    <artifactId>fine-teleportation</artifactId>
 
-    <name>Fine Commons</name>
+    <name>Fine Teleportation</name>
 
     <dependencies>
         <dependency>
-            <groupId>ch.jalu</groupId>
-            <artifactId>injector</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>co.aikar</groupId>
-            <artifactId>acf-paper</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.destroystokyo.paper</groupId>
             <artifactId>paper-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>it.mcdev.fine</groupId>
+            <artifactId>fine-commons</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

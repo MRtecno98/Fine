@@ -1,4 +1,4 @@
-package it.mcdev.fine.commons.module;
+package it.mcdev.fine.commons.modules;
 
 import org.jetbrains.annotations.NotNull;
 

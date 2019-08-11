@@ -2,7 +2,7 @@ package it.mcdev.fine.bootstrap;
 
 import ch.jalu.injector.Injector;
 import ch.jalu.injector.InjectorBuilder;
-import it.mcdev.fine.commons.module.ModuleManager;
+import it.mcdev.fine.commons.modules.ModuleManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.slf4j.Logger;
 
