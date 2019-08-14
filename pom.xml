@@ -11,7 +11,7 @@
 
     <modules>
         <module>commons</module>
-        <module>bootstrap</module>
+        <module>core</module>
         <module>teleportation</module>
     </modules>
 
@@ -61,7 +61,6 @@
     </licenses>
 
     <properties>
-        <project.suiteName>Fine</project.suiteName>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>8</java.version>

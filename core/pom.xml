@@ -10,9 +10,9 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>fine-bootstrap</artifactId>
+    <artifactId>fine-core</artifactId>
 
-    <name>Fine Bootstrap</name>
+    <name>FineCore</name>
 
     <dependencies>
         <dependency>

@@ -1,0 +1,9 @@
+name: '${project.name}'
+version: '${project.version}'
+description: '${project.description}'
+main: 'it.mcdev.fine.modules.FineTeleport'
+api-version: '1.13'
+load: 'STARTUP'
+depend: ['FineCore']
+author: 'MCDevITA'
+website: '${project.url}'

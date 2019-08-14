@@ -10,9 +10,9 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>fine-teleportation</artifactId>
+    <artifactId>fine-teleport</artifactId>
 
-    <name>Fine Teleportation</name>
+    <name>FineTeleport</name>
 
     <dependencies>
         <dependency>
